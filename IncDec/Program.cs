@@ -8,10 +8,13 @@ namespace IncDec
         {
             int a = 3;
             int b = 6;
+            //Implementa +1 apenas depois de fazer todas as operações com a var
             int c = a++ + b++;
             int d = 65;
             int e = 32;
+            //Implementa +1 antes de fazer qualquer operação com a var
             int f = ++d + ++e;
+
             Console.WriteLine("a = " + a);
             Console.WriteLine("b = " + b);
             Console.WriteLine("c = (a+1) + (b+1) = " + c);
